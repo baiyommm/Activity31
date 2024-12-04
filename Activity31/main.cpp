@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  Activity31
-//
-//  Created by Chatchapong Thuaypha on 11/20/24.
-//
-
 #include <iostream>
+#include "Functions.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace PointFunctions;
+using namespace std;
+
+int main(){
+    
+    Point p1(10, 20);
+    cout << p1 << endl;
+
+    Point p2(100, 200);
+    cout << p2 << endl;
+
     return 0;
 }
